@@ -5,5 +5,8 @@
 
 int main()
 {
-    printf("%d", '\0');
+    char t[16];
+    gets(t);
+    puts(t);
+    printf("%c \n", t[7]);
 }
